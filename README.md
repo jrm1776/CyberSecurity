@@ -36,10 +36,14 @@ The configuration details of each machine may be found below.
 
 Name	Function	IP Address	Operating system
 
-JUMPBOXPROVISIONER	10.0.0.4	Linux	
-WEB-1             	10.0.0.5	Linux	
-WEB-2             	10.0.0.6	Linux	
-NVWA_WEB-3        	10.0.0.7	Linux	
+JUMPBOXPROVISIONER	10.0.0.4	Linux
+
+WEB-1             	10.0.0.5	Linux
+
+WEB-2             	10.0.0.6	Linux
+
+NVWA_WEB-3        	10.0.0.7	Linux
+
 ELK-SERVER        	10.1.0.4	Linux	
 
 Access Policies
@@ -83,9 +87,6 @@ Install pip3
 Install Docker python module
 Increase virtual memory
 Download and launch a docker
-The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-
-image
 
 Target Machines & Beats This ELK server is configured to monitor the following machines: List the IP addresses of the machines you are monitoring.
 
